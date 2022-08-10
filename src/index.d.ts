@@ -149,6 +149,7 @@ declare module 'youtube-dl-exec' {
         hlsPreferNative?: boolean,
         hlsPreferFfmpeg?: boolean,
         hlsUseMpegts?: boolean,
+        downloadSections?: string,
         externalDownloader?: string,
         externalDownloaderArgs?: string,
         batchFile?: string,
